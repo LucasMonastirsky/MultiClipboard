@@ -11,6 +11,7 @@ Shape = Rectangle (#Margin# + #ContentWidth# * 0),(#Margin# + #ContentHeight# * 
 
 [ContentText0]
 Meter = String
+MeterStyle = StyleContentText
 MeasureName = Clip0
 X = (#Margin# + #ContentWidth# * 0 + #ContentMargin#)
 Y = (#Margin# + #ContentHeight# * 0 + #ContentMargin#)
@@ -31,6 +32,7 @@ Shape = Rectangle (#Margin# + #ContentWidth# * 1 + #ContentSpacing#),(#Margin#),
 
 [ContentText1]
 Meter = String
+MeterStyle = StyleContentText
 MeasureName = Clip1
 X = (#Margin# + #ContentWidth# * 1 + #ContentMargin# + #ContentSpacing#)
 Y = (#Margin# + #ContentMargin#)
@@ -51,6 +53,7 @@ Shape = Rectangle (#Margin# + #ContentWidth# * 2 + #ContentSpacing# * 2),(#Margi
 
 [ContentText2]
 Meter = String
+MeterStyle = StyleContentText
 MeasureName = Clip2
 X = (#Margin# + #ContentWidth# * 2 + #ContentMargin# + #ContentSpacing# * 2)
 Y = (#Margin# + #ContentMargin#)
@@ -71,6 +74,7 @@ Shape = Rectangle (#Margin# + #ContentWidth# * 3 + #ContentSpacing# * 3),(#Margi
 
 [ContentText3]
 Meter = String
+MeterStyle = StyleContentText
 MeasureName = Clip3
 X = (#Margin# + #ContentWidth# * 3 + #ContentMargin# + #ContentSpacing# * 3)
 Y = (#Margin# + #ContentMargin#)
@@ -91,6 +95,7 @@ Shape = Rectangle (#Margin# + #ContentWidth# * 4 + #ContentSpacing# * 4),(#Margi
 
 [ContentText4]
 Meter = String
+MeterStyle = StyleContentText
 MeasureName = Clip4
 X = (#Margin# + #ContentWidth# * 4 + #ContentMargin# + #ContentSpacing# * 4)
 Y = (#Margin# + #ContentMargin#)
