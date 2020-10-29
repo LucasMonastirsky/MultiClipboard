@@ -4,8 +4,9 @@ ClipAmount = 5
 
 ; Styling
 BackgroundColor = 0,0,0,50
-TextColor = 255,255,255
 ContentBackgroundColor = 0,0,0,200
+TextColor = 255,255,255
+UrlColor = 120,120,255
 
 Width = 1080
 Height = 175
