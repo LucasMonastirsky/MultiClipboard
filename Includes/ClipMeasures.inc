@@ -2,6 +2,8 @@
 MATCH_EXPRESSION = \n.*\n
 SUBSTITUTE = "^\[IMG\] {Width=(.+), Height=(.+)}":"[IMG] (\1 x \2)"
 
+; Clips
+
 [Clip0]
 Measure=Plugin
 Plugin=PluginClipboard.dll
@@ -50,4 +52,46 @@ IfMatchAction = [!SetOption ContentText4 ClipString #Zero#][!UpdateMeter Content
 IfNotMatchAction = [!SetOption ContentText4 ClipString 1][!UpdateMeter ContentText4][!Redraw]
 RegExpSubstitute = 1
 Substitute = #SUBSTITUTE#
+DynamicVariables = 1
+
+; Highlight
+
+[HighlightContent0]
+Measure = Calc
+IfCondition = #Index# = 0
+IfTrueAction=[!ShowMeter ContentHighlight0]
+IfFalseAction=[!HideMeter ContentHighlight0]
+IfConditionMode = 1
+DynamicVariables = 1
+
+[HighlightContent1]
+Measure = Calc
+IfCondition = #Index# = 1
+IfTrueAction=[!ShowMeter ContentHighlight1]
+IfFalseAction=[!HideMeter ContentHighlight1]
+IfConditionMode = 1
+DynamicVariables = 1
+
+[HighlightContent2]
+Measure = Calc
+IfCondition = #Index# = 2
+IfTrueAction=[!ShowMeter ContentHighlight2]
+IfFalseAction=[!HideMeter ContentHighlight2]
+IfConditionMode = 1
+DynamicVariables = 1
+
+[HighlightContent3]
+Measure = Calc
+IfCondition = #Index# = 3
+IfTrueAction=[!ShowMeter ContentHighlight3]
+IfFalseAction=[!HideMeter ContentHighlight3]
+IfConditionMode = 1
+DynamicVariables = 1
+
+[HighlightContent4]
+Measure = Calc
+IfCondition = #Index# = 4
+IfTrueAction=[!ShowMeter ContentHighlight4]
+IfFalseAction=[!HideMeter ContentHighlight4]
+IfConditionMode = 1
 DynamicVariables = 1

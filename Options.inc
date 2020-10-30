@@ -24,3 +24,6 @@ ContentSpacing = 10
 ContentStrokeWidth = 2
 ContentBorderRadius = 5
 ContentBorderColor = 100,100,100,50
+
+HighlightStrokeWidth = 3
+HighlightColor = 255,100,50
